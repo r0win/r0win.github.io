@@ -12,10 +12,10 @@ h1 {
       border:1px solid black;
     }
     a:hover {
-      color: black;
+      color: purple;
     }
     a:active {
-      color: black;
+      color: purple;
     }
     a {
       color: red;
@@ -28,4 +28,12 @@ body {
 }
 table {
   background-color: white;
+}
+.la-la-land-poster {
+  display: block;
+  margin-left: auto; 
+  margin-right: auto;
+}
+.w3-sidebar-w3-bar-block {
+  background-color: black;
 }
