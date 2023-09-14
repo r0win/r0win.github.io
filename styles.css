@@ -1,12 +1,31 @@
-.motivatie { color : yellow }
+
 h1 {
     background-image: url(https://wallpapercave.com/wp/wp8872385.jpg);
     margin: 0;
     max-height: fit-content;
     padding: 30px;
+    color: white; 
     }
 
 
     table, th, td {
       border:1px solid black;
     }
+    a:hover {
+      color: black;
+    }
+    a:active {
+      color: black;
+    }
+    a {
+      color: red;
+    }
+.motivatie {
+  background-color: purple;
+}
+body {
+  background-color: purple;
+}
+table {
+  background-color: white;
+}
