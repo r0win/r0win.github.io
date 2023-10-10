@@ -1,30 +1,32 @@
 
-h1 {
+h1.nav {
     background-image: url(https://wallpapercave.com/wp/wp8872385.jpg);
     margin: 0;
     max-height: fit-content;
     padding: 30px;
-    color: white; 
+    color: white; ;
     }
+h1.nav a {
+      margin-right: 20px; 
+      text-decoration: none;
+  }
 
 
     table, th, td {
       border:1px solid black;
     }
     a:hover {
-      color: purple;
+      color: rgb(188, 125, 188);
     }
     a:active {
-      color: purple;
+      color: white
     }
     a {
-      color: red;
+      color: rgb(146, 2, 146)
     }
-.motivatie {
-  background-color: purple;
-}
+
 body {
-  background-color: purple;
+  background-color: rgb(188, 125, 188);
 }
 table {
   background-color: white;
