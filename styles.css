@@ -1,41 +1,62 @@
-
 h1.nav {
     background-image: url(https://wallpapercave.com/wp/wp8872385.jpg);
     margin: 0;
     max-height: fit-content;
     padding: 30px;
-    color: white; ;
+    color: white; 
+    width: 100%;
+    display: block;
     }
 h1.nav a {
       margin-right: 20px; 
-      text-decoration: none;
+      text-decoration: none
+  }
+  h1.nav a:hover {
+    color: rgb(188, 125, 188);
   }
 
+  .aside-menu {
+    width: 125px; 
+  }
+  .aside-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  .aside-menu a:hover {
+    background-color: wheat;
+  }
+  .container {
+    display: flex;
+  }
+  main {
+    margin-left: 10px; 
+  }
 
-    table, th, td {
+table, th, td {
       border:1px solid black;
     }
+
     a:hover {
-      color: rgb(188, 125, 188);
+      color: black;
     }
     a:active {
-      color: white
+      color: white;
     }
     a {
-      color: rgb(146, 2, 146)
+      color: rgb(146, 2, 146);
     }
 
 body {
   background-color: rgb(188, 125, 188);
+  margin: 0;
 }
 table {
   background-color: white;
 }
 .la-la-land-poster {
-  display: block;
-  margin-left: auto; 
+  margin-left: 50px; 
   margin-right: auto;
-}
-.w3-sidebar-w3-bar-block {
-  background-color: black;
 }
